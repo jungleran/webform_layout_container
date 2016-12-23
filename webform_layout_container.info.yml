@@ -1,5 +1,5 @@
 name: 'Webform Layout Container'
-description: 'Add a layout container type element to Webform.'
+description: 'Provides a layout container element to add to a webform.'
 core: 8.x
 package: Webform
 dependencies:
