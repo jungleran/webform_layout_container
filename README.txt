@@ -10,7 +10,7 @@ support CSS Flexbox (IE9 and IE10).
 How to use
 ----------
 - Edit or create a webform.
-- Click the "+ Add element" and choose layout box to your form.
+- Click the "+ Add element" button.
 - On the "Select an element" modal, click the "Add element" for 
   the "Layout container" element.
 - Fill in the required Key field, with a unique machine-readable name. 
