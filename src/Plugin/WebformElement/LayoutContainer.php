@@ -4,6 +4,7 @@ namespace Drupal\webform_layout_container\Plugin\WebformElement;
 
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\webform\Plugin\WebformElement\Container;
+use Drupal\webform\WebformSubmissionInterface;
 
 /**
  * Provides a 'layout container' type element to Webform.
@@ -29,7 +30,7 @@ class LayoutContainer extends Container {
   /**
    * {@inheritdoc}
    */
-  protected function build($format, array &$element, $value, array $options = []) {
+  protected function build($format, array &$element, WebformSubmissionInterface $webform_submission, array $options = []) {
     return $value;
   }
 
